@@ -1,0 +1,201 @@
+//@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import "Sass/_vars.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-size: 16px;
+    line-height: 135%;
+    min-width: 375px;
+    font-family: $font-1;
+}
+a {
+    text-underline-offset: 4px;
+    text-decoration: none;
+    color: inherit;
+}
+ol, ul {
+    list-style-position: inside;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+ul {
+    list-style: none;
+}
+.input {
+    input, textarea {
+        background: unset;
+        outline: none;
+        border: none;
+        width: 100%;
+        appearance: none;
+        border-radius: 0;
+        padding: 0 12px;
+        font-family: inherit;
+        color: inherit;
+        font-size: inherit;
+        resize: none;
+    }
+}
+#page {
+    overflow: hidden;
+}
+.grid {
+    display: grid;
+}
+.button {
+    outline: none;
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    padding: 3px 5px;
+    justify-content: center;
+    line-height: 1;
+    font-family: inherit;
+    transition: all ease .4s;
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &--default {
+        min-height: 50px;
+        min-width: 220px;
+        background-color: #00D975;
+        border-radius: 101px;
+        font-weight: 700;
+        line-height: 121%;
+        text-align: center;
+        color: #222435;
+
+        @media screen and (max-width: 991px) {
+            min-height: 35px;
+            font-size: 14px;
+            min-width: 150px;
+        }
+
+        &:hover {
+            background-color: darken(#00D975, 15%);
+            color: #fff;
+        }
+    }
+
+    &--products {
+        margin: 64px auto 0;
+
+        @media screen and (max-width: 1199px) {
+            margin-top: 30px;
+        }
+    }
+
+    &--brand {
+        margin-top: auto;
+
+        @media screen and (max-width: 991px) {
+            margin-top: 20px;
+        }
+    }
+
+    &--about {
+        margin: 75px auto 0;
+
+        @media screen and (max-width: 1199px) {
+            margin-top: 50px;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin-top: 25px;
+        }
+    }
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    @media screen and (max-width: 575px) {
+        max-width: 100%;
+    }
+
+    @media screen and (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 720px;
+    }
+    
+    @media screen and (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1140px;
+    }
+}
+.modal {
+    display: none;
+}
+.description p:not(:last-child) {
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 575px) {
+        margin-bottom: 15px;
+    }
+}
+
+.logo {
+    position: relative;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-left: 52px;
+
+    @media screen and (max-width: 1199px) {
+        font-size: 18px;
+        padding-left: 42px;
+    }
+
+    &:hover::before {
+        background-color: darken(#00D975, 15%);
+    }
+
+    &::before {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 34px;
+        height: 34px;
+        border-radius: 100%;
+        transform: translateY(-50%);
+        content: '';
+        background-color: #00D975;
+        transition: all ease .4s;
+
+        @media screen and (max-width: 1199px) {
+            width: 29px;
+            height: 29px;
+        }
+    }
+
+    &--header {
+
+    }
+
+    &--footer {
+
+    }
+}

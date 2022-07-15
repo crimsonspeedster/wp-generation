@@ -1,0 +1,29 @@
+{
+    "scripts": {
+        "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "start": "git pull origin master && npm run production",
+        "start-dev": "git pull origin dev && npm run dev"
+    },
+    "dependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@fancyapps/ui": "^4.0.27",
+        "aos": "^2.3.4",
+        "swiper": "^8.1.4"
+    },
+    "devDependencies": {
+        "acorn": "^6.1.1",
+        "cross-env": "^5.2.0",
+        "css-loader": "^2.1.0",
+        "file-loader": "^3.0.1",
+        "import-glob-loader": "^1.1.0",
+        "laravel-mix": "^4.0.14",
+        "resolve-url-loader": "2.3.1",
+        "sass": "^1.17.2",
+        "sass-loader": "7.*",
+        "vue-template-compiler": "^2.6.14",
+        "webpack-livereload-plugin": "^2.3.0"
+    }
+}

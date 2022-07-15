@@ -1,0 +1,38 @@
+<svg width="1085" height="133" viewBox="0 0 1085 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_3_150)">
+<circle cx="56.5" cy="97.5" r="8.5" stroke="#00D975" stroke-opacity="0.4" stroke-width="6"/>
+<circle cx="74" cy="61" r="4.5" stroke="#00D975" stroke-opacity="0.4" stroke-width="3"/>
+<circle cx="267" cy="31" r="4.5" stroke="#00D975" stroke-opacity="0.4" stroke-width="3"/>
+<circle cx="28.5" cy="45.5" r="3" stroke="#00D975" stroke-opacity="0.4" stroke-width="3"/>
+<circle cx="247.5" cy="50.5" r="3" stroke="#00D975" stroke-opacity="0.4" stroke-width="3"/>
+<circle cx="893.5" cy="100.5" r="3" stroke="#00D975" stroke-opacity="0.4" stroke-width="3"/>
+<circle cx="700" cy="31" r="5" stroke="#00D975" stroke-opacity="0.4" stroke-width="4"/>
+</g>
+<g filter="url(#filter1_f_3_150)">
+<circle cx="1022.5" cy="57.7309" r="9.18657" transform="rotate(-58.4883 1022.5 57.7309)" stroke="#00D975" stroke-opacity="0.4" stroke-width="6"/>
+<circle cx="1034.27" cy="100.372" r="4.85821" transform="rotate(-58.4883 1034.27 100.372)" stroke="#00D975" stroke-opacity="0.4" stroke-width="3"/>
+<circle cx="1056.08" cy="43.5124" r="3.26866" transform="rotate(-58.4883 1056.08 43.5124)" stroke="#00D975" stroke-opacity="0.4" stroke-width="3"/>
+</g>
+<circle cx="56.5" cy="97.4999" r="8.5" stroke="#00D975" stroke-width="6"/>
+<circle cx="74" cy="60.9999" r="4.5" stroke="#00D975" stroke-width="3"/>
+<circle cx="267" cy="30.9999" r="4.5" stroke="#00D975" stroke-width="3"/>
+<circle cx="28.5" cy="45.4999" r="3" stroke="#00D975" stroke-width="3"/>
+<circle cx="247.5" cy="50.4999" r="3" stroke="#00D975" stroke-width="3"/>
+<circle cx="893.5" cy="100.5" r="3" stroke="#00D975" stroke-width="3"/>
+<circle cx="700" cy="30.9999" r="5" stroke="#00D975" stroke-width="4"/>
+<circle cx="1024.5" cy="56.731" r="9.18657" transform="rotate(-58.4883 1024.5 56.731)" stroke="#00D975" stroke-width="6"/>
+<circle cx="1036.27" cy="99.372" r="4.85821" transform="rotate(-58.4883 1036.27 99.372)" stroke="#00D975" stroke-width="3"/>
+<circle cx="1058.08" cy="42.5124" r="3.26866" transform="rotate(-58.4883 1058.08 42.5124)" stroke="#00D975" stroke-width="3"/>
+<defs>
+<filter id="filter0_f_3_150" x="0" y="0" width="922" height="133" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="12" result="effect1_foregroundBlur_3_150"/>
+</filter>
+<filter id="filter1_f_3_150" x="986.31" y="14.7431" width="98.5348" height="115.988" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="12" result="effect1_foregroundBlur_3_150"/>
+</filter>
+</defs>
+</svg>
